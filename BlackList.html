@@ -1,0 +1,77 @@
+<html>
+<head>
+<style>
+ 
+body {
+  background-color: white;
+}
+ 
+div.divDays{
+                border-radius: 25px;       
+                background-color: black;
+                display: block;
+                color: white;       
+                width:200;                           
+}
+ 
+div.divSingleDayContent{                             
+                display: inline;   
+                position: relative;
+}
+ 
+span.single {                       
+                font-size:80px;  
+}
+ 
+span.content {                  
+                position: absolute;
+                font-size:20px;
+                margin-left:20px;
+}
+ 
+div.divSingleDay {
+                margin-left: 10px;            
+                margin-right: 10px;          
+                border-bottom: 1px solid white;
+}
+ 
+div.divSingleDay:hover{
+                background-color: white;             
+                color:black;         
+                cursor:pointer;
+                border-radius: 25px;
+}
+ 
+ 
+</style>
+</head>
+<body>
+ 
+<div class="divDays">    
+                <div class="divSingleDay">          
+                                <span class="single"> 3 </span>                               
+                                <div class="divSingleDayContent">
+                                                <span class="content" style='bottom:60px;'> HM </span>
+                                                <span class="content" style='bottom:40px;'> Roof </span>
+                                </div>                   
+                </div>
+                
+                <div class="divSingleDay">          
+                                <span class="single"> 1 </span>                                                               
+                                <div class="divSingleDayContent">
+                                                <span class="content" style='bottom:60px;'> IKEA </span>
+                                                <span class="content" style='bottom:40px;'> Sephora </span>
+                                </div>                                   
+                </div>   
+                
+                <div class="divSingleDay">          
+                                <span class="single"> G </span>                                                              
+                                <div class="divSingleDayContent">
+                                                <span class="content" style='bottom:60px;'> Parking </span>                                   
+                                </div>                                   
+                </div>   
+</div>                   
+ 
+</body>
+</html>
+
